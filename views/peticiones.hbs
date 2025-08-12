@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>App</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <ul>
+    {{#each peticiones}}
+        <li>Peticion numero {{this.id}} - {{this.name}} </li>
+    {{/each}}
+    </ul>
+
+</body>
+</html>
